@@ -1,0 +1,41 @@
+#include<stdio.h>
+void main(){
+int num,i,j,k=1;
+printf("Enter the value of num : ");
+scanf("%d",&num);
+for(i=1;i<=num;i++)
+{
+    for(j=1;j<=i;j++)
+    {
+        printf("*");
+    }
+    printf("\n");
+}
+printf("=============\n");
+for(i=1;i<=num;i++)
+{
+    for(j=1;j<=i;j++)
+    {
+        printf("%d",j);
+    }
+    printf("\n");
+}
+printf("=============\n");
+for(i=1;i<=num;i++)
+{
+    for(j=1;j<=i;j++)
+    {
+        printf("%d",i);
+    }
+    printf("\n");
+}
+printf("=============\n");
+for(i=1;i<=num;i++)
+{
+    for(j=1;j<=i;j++)
+    {
+        printf("%d",k++);
+    }
+    printf("\n");
+}
+}
